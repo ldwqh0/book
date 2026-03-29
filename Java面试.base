@@ -1,5 +1,19 @@
 views:
   - type: table
     name: 表格
+    order:
+      - file.name
+      - file.backlinks
+      - file.basename
+      - file.ctime
+      - file.folder
+      - file.embeds
+      - file.ext
+      - file.fullname
+      - file.links
+      - file.mtime
+      - file.path
+      - file.tags
+      - file.size
   - type: table
     name: 视图
